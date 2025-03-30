@@ -1250,6 +1250,10 @@ p {
 }
 
 .price-contact {
+  overflow: hidden;
+}
+
+.price-contact__wrap {
   background-image: url("/price/images/price_contact/price_contact_sp.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -1262,7 +1266,7 @@ p {
   align-items: center;
 }
 @media (min-width: 768px) {
-  .price-contact {
+  .price-contact__wrap {
     background-image: url("/price/images/price_contact/price_contact_pc.png");
     width: 100vw;
     height: 32.1428571429vw;
