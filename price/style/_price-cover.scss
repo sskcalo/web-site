@@ -1,0 +1,94 @@
+.lower-layer {
+    padding-top: rem(5);
+    padding-bottom: rem(20);
+    padding-left: calc(100vw/390*16);
+    padding-right: calc(100vw/390*16);
+    max-width: 400px;
+    margin: 0 auto;
+
+    @media (min-width: 768px) {
+        padding-top: rem(25);
+        padding-bottom: rem(8);
+        max-width: 1300px;
+    }
+}
+
+
+.lower-layer {
+    .lower-layer__wrap {
+        .lower-layer__img {
+            background-image: url("/price/images/cover/price_cover_sp.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            width: min(rem(358), calc(100vw/390*358));
+            height: min(rem(230), calc(100vw/390*230));
+            margin: rem(15) auto 0;
+
+            @media (min-width: 768px) {
+                background-image: url("/price/images/cover/price_cover_pc.png");
+                width: min(rem(1200), calc(100vw/1400*1200));
+                height: min(rem(550), calc(100vw/1400*550));
+            }
+        }
+    }
+}
+
+.lower-layer {
+    .lower-layer__wrap {
+        h1 {
+            font-size: rem(30);
+            font-weight: 700;
+            color: $black-1;
+            margin-top: rem(29);
+
+            @media (min-width: 768px) {
+                font-size: clamp(rem(25), calc(100vw/1400*36), rem(36));
+                margin-top: max(rem(-113), calc(100vw/1400*(-113)));
+                margin-left: min(rem(42), calc(100vw/1400*42));
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: $white;
+                border-radius: 0 40px 0 0;
+                width: min(rem(328), calc(100vw/1400*328));
+                height: min(rem(114), calc(100vw/1400*114));
+                box-sizing: border-box;
+                padding-bottom: rem(7);
+            }
+        }
+    }
+}
+
+.lower-layer {
+    .lower-layer__text {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: rem(27);
+
+        @media (min-width: 768px) {
+            margin-top: rem(16);
+            margin-right: rem(40);
+        }
+
+        a {
+            font-size: rem(12);
+            color: $black-1;
+
+            @media (min-width: 768px) {
+                font-size: rem(12);
+            }
+        }
+
+        i {
+            font-size: rem(14);
+            color: $black-1;
+            margin: rem(3) rem(2) 0;
+
+            @media (min-width: 768px) {
+                font-size: rem(17);
+            }
+        }
+    }
+}

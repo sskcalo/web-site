@@ -1,0 +1,13 @@
+.faq-cover {
+    .lower-layer {
+        .lower-layer__wrap {
+            .lower-layer__img {
+                background-image: url("/faq/images/faq_cover_sp.png");
+
+                @media (min-width: 768px) {
+                    background-image: url("/faq/images/faq_cover_pc.png");
+                }
+            }
+        }
+    }
+}

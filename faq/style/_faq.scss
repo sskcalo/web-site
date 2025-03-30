@@ -1,0 +1,129 @@
+.faq {
+    padding-top: rem(15);
+    padding-bottom: rem(156);
+
+    @media (min-width: 768px) {
+        padding-top: rem(51);
+        padding-bottom: rem(36);
+    }
+}
+
+.faq {
+    .total__width--price {
+        @media (min-width: 768px) {
+            min-width: rem(650);
+            max-width: rem(1000);
+        }
+    }
+}
+
+.faq__container {
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    padding: rem(22) rem(23) rem(17);
+    margin-bottom: rem(24);
+    position: relative;
+    @media (min-width: 768px) {
+        padding: rem(19) rem(30) rem(16);
+    }
+}
+
+.faq__header {
+    display: flex;
+    flex-direction: column;
+
+
+    .header__mark {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+}
+
+.faq__qa {
+    font-size: rem(24);
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: $green;
+    margin-right: min(rem(16), calc(100vw/390*16));
+}
+
+.faq__category {
+    font-size: min(rem(11), calc(100vw/390*11));
+    color: $green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: min(rem(100), calc(100vw/390*100));
+    height: min(rem(24), calc(100vw/390*24));
+    border: 1px solid $green;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-bottom: rem(1);
+    margin-top: rem(1);
+    margin-right: rem(8);
+    @media (min-width: 768px) {
+        margin-top: rem(4);
+    }
+}
+
+.header__text {
+    font-size: rem(16);
+    font-weight: 700;
+    line-height: 1.75;
+    width: 73%;
+    min-width: rem(220);
+    margin: 0 auto;
+
+    @media (min-width: 768px) {
+        font-size: rem(18);
+        margin-top: rem(8);
+    }
+}
+
+
+.faq__header::before,
+.faq__header::after {
+    position: absolute;
+    content: '';
+    top: rem(35);
+    right: rem(24);
+    width: rem(18);
+    height: rem(2);
+    border-radius: 4px;
+    margin: auto;
+    background: $black-1;
+    z-index: 100;
+
+    @media (min-width: 768px) {
+        top: rem(34);
+        right: rem(32);
+    }
+}
+
+.faq__header::after {
+    transform: rotate(-90deg);
+    transition: transform 0.3s;
+}
+
+.faq__header.active::after {
+    transform: rotate(0deg);
+}
+
+
+
+.faq__content {
+    display: none;
+}
+
+
+.faq__content {
+    .content__text {
+        font-size: rem(16);
+        line-height: 1.75;
+        margin-top: rem(2);
+        @media (min-width: 768px) {
+        margin-top: rem(17);
+        }
+    }
+}

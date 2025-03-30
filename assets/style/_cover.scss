@@ -1,0 +1,64 @@
+.cover {
+    @media (min-width: 768px) {
+        padding-top: rem(32);
+    }
+
+    .cover__text {
+        @media (min-width: 768px) {
+            display: flex;
+            padding: 0 rem(32);
+        }
+    }
+}
+
+.cover {
+    .cover__text {
+        h2 {
+            font-size: min(rem(28), calc(100vw/300*25));
+            font-weight: 700;
+            margin-top: rem(19);
+
+            @media (min-width: 768px) {
+                font-size: rem(40);
+                width: 44%;
+            }
+        }
+
+        p {
+            font-size: rem(15);
+            line-height: 1.75;
+            margin-top: rem(26);
+
+            @media (min-width: 768px) {
+                font-size: rem(15);
+                width: 48%;
+                margin-top: rem(16);
+                margin-left: rem(87);
+            }
+        }
+    }
+}
+
+.cover {
+    .cover__img {
+        width: calc(100vw/390*358);
+        max-width: 358px;
+        height: calc(100vw/390*450);
+        max-height: 450px;
+        background-image: url("/assets/images/cover_sp.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: rem(26) auto 0;
+        border-radius: 40px;
+
+        @media (min-width: 768px) {
+            width: calc(100vw/1400*1167);
+            height: calc(100vw/1400*550);
+            background-image: url("/assets/images/cover_pc.png");
+            margin-top: rem(58);
+            background-size: contain;
+            max-width: rem(1500);
+            max-height: rem(900);
+        }
+    }
+}

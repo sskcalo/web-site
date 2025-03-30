@@ -1,0 +1,128 @@
+.news {
+    padding-top: rem(54);
+    padding-bottom: rem(61);
+
+    @media (min-width: 768px) {
+        padding-top: rem(61);
+        padding-bottom: rem(69);
+    }
+}
+
+
+.news__box {
+    border-top: 1px solid #ddd;
+    margin: rem(24) auto 0;
+    padding-top: rem(14);
+    max-width: 500px;
+
+    @media (min-width: 768px) {
+        margin-top: rem(33);
+        width: 77.2%;
+        max-width: 1000px;
+        min-width: 650px;
+    }
+}
+
+.news__box {
+    .news__container {
+        border-bottom: 1px solid #ddd;
+        padding-bottom: rem(10);
+        margin-bottom: rem(13.5);
+
+        @media (min-width: 768px) {
+            padding-bottom: rem(16);
+            margin-bottom: rem(14);
+        }
+
+        a {
+            @media (min-width: 768px) {
+                display: flex;
+            }
+        }
+    }
+}
+
+.news__box {
+    .news__container {
+        .news__info {
+            display: flex;
+        }
+    }
+}
+
+.news__box {
+    .news__container {
+        .news__date {
+            font-size: rem(15);
+            color: #222;
+            letter-spacing: rem(-.3);
+
+            @media (min-width: 768px) {
+                font-size: rem(14);
+                margin-top: rem(1);
+            }
+        }
+
+        .news__category {
+            font-size: rem(13);
+            color: $white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: rem(134);
+            height: rem(28);
+            border-radius: 4px;
+            background-color: #473221;
+            margin-left: rem(18);
+            margin-top: rem(2);
+
+            @media (min-width: 768px) {
+                margin-left: rem(20);
+            }
+        }
+
+        .news__text {
+            font-size: rem(15);
+            color: #09947b;
+            font-weight: 700;
+            line-height: 1.75;
+            margin-top: rem(9);
+
+            @media (min-width: 768px) {
+                margin-top: rem(3);
+                margin-left: rem(24);
+            }
+        }
+    }
+}
+
+
+.news__btn {
+    display: flex;
+    justify-content: center;
+    margin-top: rem(26);
+
+    @media (min-width: 768px) {
+        margin-top: rem(32);
+    }
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: rem(300);
+    height: rem(66);
+    background-color: #09947b;
+    border-radius: 33px;
+    font-size: rem(18);
+    font-weight: 700;
+    color: $white;
+    box-shadow: 0 5px 0 0 #066655;
+}
+
+.btn:hover {
+    margin-top: 3px;
+    margin-bottom: -3px;
+    box-shadow: 0 2px 0 0 #066655;
+}

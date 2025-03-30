@@ -1,0 +1,29 @@
+.price-value {
+    padding-top: rem(19);
+    padding-bottom: rem(30);
+
+    @media (min-width: 768px) {
+        padding-top: rem(23);
+        padding-bottom: rem(40);
+    }
+}
+
+
+.price-value {
+    p {
+        font-size: rem(32);
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: rem(21);
+
+        @media (min-width: 768px) {
+            margin-top: rem(29);
+        }
+
+        small {
+            font-size: rem(16);
+            font-family: 'Noto Sans JP', sans-serif;
+            margin-left: rem(1);
+        }
+    }
+}

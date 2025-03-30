@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&display=swap');
+
+@import 'base';
+@import 'header';
+@import 'cover';
+@import 'about';
+@import 'feature';
+@import 'product';
+@import 'case';
+@import 'news';
+@import 'footer';
+
+@import "../../price/style/price-cover";
+@import '../../price/style/price-garary';
+@import '../../price/style/price-features';
+@import '../../price/style/price-value';
+@import '../../price/style/price-spec';
+@import '../../price/style/price-contact';
+
+@import '../../faq/style/faq-cover';
+@import '../../faq/style/faq';
