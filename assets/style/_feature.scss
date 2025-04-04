@@ -1,0 +1,114 @@
+.feature {
+    padding-top: rem(54);
+    padding-bottom: rem(34);
+    background-color: #f3f9f6;
+
+    @media (min-width: 768px) {
+        padding-top: rem(62);
+        padding-bottom: rem(43);
+    }
+}
+
+.feature__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: rem(23);
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: rem(32);
+    }
+}
+
+.feature__box {
+    .feature__container {
+        width: 100%;
+        max-width: 358px;
+        height: fit-content;
+        max-height: 289px;
+        border-radius: 24px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
+        background-color: $white;
+        margin-bottom: rem(21);
+        box-sizing: border-box;
+        padding-bottom: rem(12);
+
+        @media (min-width: 768px) {
+            width: calc(100vw/1400*369);
+            max-width: 369px;
+            height: calc(100vw/1400*319);
+            max-height: 319px;
+            min-height: 300px;
+        }
+    }
+}
+
+
+.feature__box {
+    .feature__container {
+        .feature__img {
+            background-image: url("/assets/images/top/feature/feature_sp_01.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            border-radius: 24px 24px 0 0;
+            width: 100%;
+            height: calc(100vw/390*201);
+            max-height: 201px;
+
+            @media (min-width: 768px) {
+                background-image: url("/assets/images/top/feature/feature_pc_01.png");
+                height: calc(100vw/1400*226);
+                max-height: 226px;
+            }
+        }
+    }
+
+}
+
+
+.feature__box {
+    .feature__wrap--2 {
+        .feature__container {
+            .feature__img {
+                background-image: url("/assets/images/top/feature/feature_sp_02.png");
+
+                @media (min-width: 768px) {
+                    background-image: url("/assets/images/top/feature/feature_pc_02.png");
+                }
+            }
+        }
+    }
+
+    .feature__wrap--3 {
+        .feature__container {
+            .feature__img {
+                background-image: url("/assets/images/top/feature/feature_sp_03.png");
+
+                @media (min-width: 768px) {
+                    background-image: url("/assets/images/top/feature/feature_pc_03.png");
+                }
+            }
+        }
+    }
+}
+
+
+.feature__box {
+    .feature__container {
+        p {
+            font-size: rem(18);
+            font-weight: 700;
+            color: $black-2;
+            line-height: 1.75;
+            margin: rem(13) rem(16) 0;
+
+            @media (min-width: 768px) {
+                font-size: rem(19);
+                margin: rem(11) rem(16) 0 rem(20);
+            }
+        }
+    }
+}
