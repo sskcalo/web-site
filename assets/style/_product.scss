@@ -96,6 +96,18 @@
 }
 
 
+.product__container:hover {
+    @media (min-width: 768px) {
+        background-color: #dffaec;
+    }
+
+    P {
+        @media (min-width: 768px) {
+            color: $green;
+        }
+    }
+}
+
 .product__box--1 {
     @media (min-width: 768px) {
         flex-direction: row;

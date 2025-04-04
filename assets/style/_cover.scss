@@ -45,7 +45,7 @@
         max-width: 358px;
         height: calc(100vw/390*450);
         max-height: 450px;
-        background-image: url("/assets/images/cover_sp.png");
+        background-image: url("/assets/images/top/cover_sp.png");
         background-repeat: no-repeat;
         background-position: center;
         margin: rem(26) auto 0;
@@ -54,7 +54,7 @@
         @media (min-width: 768px) {
             width: calc(100vw/1400*1167);
             height: calc(100vw/1400*550);
-            background-image: url("/assets/images/cover_pc.png");
+            background-image: url("/assets/images/top/cover_pc.png");
             margin-top: rem(58);
             background-size: contain;
             max-width: rem(1500);

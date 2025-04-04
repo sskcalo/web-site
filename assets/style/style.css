@@ -229,7 +229,7 @@ p {
   }
 }
 
-.header__logo h2 {
+.header__logo .header__logo--img {
   display: flex;
 }
 
@@ -275,7 +275,7 @@ p {
   max-width: 358px;
   height: 115.3846153846vw;
   max-height: 450px;
-  background-image: url("/assets/images/cover_sp.png");
+  background-image: url("/assets/images/top/cover_sp.png");
   background-repeat: no-repeat;
   background-position: center;
   margin: 1.625rem auto 0;
@@ -285,7 +285,7 @@ p {
   .cover .cover__img {
     width: 83.3571428571vw;
     height: 39.2857142857vw;
-    background-image: url("/assets/images/cover_pc.png");
+    background-image: url("/assets/images/top/cover_pc.png");
     margin-top: 3.625rem;
     background-size: contain;
     max-width: 93.75rem;
@@ -304,7 +304,7 @@ p {
 }
 
 .about .about__wrap {
-  background-image: url("/assets/images/about_sp.png");
+  background-image: url("/assets/images/top/about_sp.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -375,10 +375,11 @@ p {
 
 @media (min-width: 768px) {
   .about .about__wrap .about__img {
-    background-image: url("/assets/images/about_pc.png");
+    background-image: url("/assets/images/top/about_pc.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    border-radius: 40px;
     width: 40%;
     height: 35.625rem;
     margin-right: 1.9375rem;
@@ -435,36 +436,37 @@ p {
 }
 
 .feature__box .feature__container .feature__img {
-  background-image: url("/assets/images/feature/feature_sp_01.png");
+  background-image: url("/assets/images/top/feature/feature_sp_01.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  border-radius: 24px 24px 0 0;
   width: 100%;
   height: 51.5384615385vw;
   max-height: 201px;
 }
 @media (min-width: 768px) {
   .feature__box .feature__container .feature__img {
-    background-image: url("/assets/images/feature/feature_pc_01.png");
+    background-image: url("/assets/images/top/feature/feature_pc_01.png");
     height: 16.1428571429vw;
     max-height: 226px;
   }
 }
 
 .feature__box .feature__wrap--2 .feature__container .feature__img {
-  background-image: url("/assets/images/feature/feature_sp_02.png");
+  background-image: url("/assets/images/top/feature/feature_sp_02.png");
 }
 @media (min-width: 768px) {
   .feature__box .feature__wrap--2 .feature__container .feature__img {
-    background-image: url("/assets/images/feature/feature_pc_02.png");
+    background-image: url("/assets/images/top/feature/feature_pc_02.png");
   }
 }
 .feature__box .feature__wrap--3 .feature__container .feature__img {
-  background-image: url("/assets/images/feature/feature_sp_03.png");
+  background-image: url("/assets/images/top/feature/feature_sp_03.png");
 }
 @media (min-width: 768px) {
   .feature__box .feature__wrap--3 .feature__container .feature__img {
-    background-image: url("/assets/images/feature/feature_pc_03.png");
+    background-image: url("/assets/images/top/feature/feature_pc_03.png");
   }
 }
 
@@ -563,6 +565,17 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media (min-width: 768px) {
+  .product__container:hover {
+    background-color: #dffaec;
+  }
+}
+@media (min-width: 768px) {
+  .product__container:hover P {
+    color: #168352;
+  }
 }
 
 @media (min-width: 768px) {
@@ -675,10 +688,11 @@ p {
 }
 
 .case__box .case__container .case__img {
-  background-image: url("/assets/images/case/case_sp_01.png");
+  background-image: url("/assets/images/top/case/case_sp_01.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  border-radius: 24px;
   width: 91.7948717949vw;
   max-width: 358px;
   height: 51.5384615385vw;
@@ -686,7 +700,7 @@ p {
 }
 @media (min-width: 768px) {
   .case__box .case__container .case__img {
-    background-image: url("/assets/images/case/case_pc_01.png");
+    background-image: url("/assets/images/top/case/case_pc_01.png");
     width: 26.3571428571vw;
     max-width: 369px;
     height: 16.1428571429vw;
@@ -710,19 +724,19 @@ p {
 }
 
 .case__box .case__wrap--2 .case__container .case__img {
-  background-image: url("/assets/images/case/case_sp_02.png");
+  background-image: url("/assets/images/top/case/case_sp_02.png");
 }
 @media (min-width: 768px) {
   .case__box .case__wrap--2 .case__container .case__img {
-    background-image: url("/assets/images/case/case_pc_02.png");
+    background-image: url("/assets/images/top/case/case_pc_02.png");
   }
 }
 .case__box .case__wrap--3 .case__container .case__img {
-  background-image: url("/assets/images/case/case_sp_03.png");
+  background-image: url("/assets/images/top/case/case_sp_03.png");
 }
 @media (min-width: 768px) {
   .case__box .case__wrap--3 .case__container .case__img {
-    background-image: url("/assets/images/case/case_pc_03.png");
+    background-image: url("/assets/images/top/case/case_pc_03.png");
   }
 }
 
@@ -905,17 +919,18 @@ p {
 }
 
 .lower-layer .lower-layer__wrap .lower-layer__img {
-  background-image: url("/price/images/cover/price_cover_sp.png");
+  background-image: url("/assets/images/price/cover/price_cover_sp.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  border-radius: 24px;
   width: min(22.375rem, 91.7948717949vw);
   height: min(14.375rem, 58.9743589744vw);
   margin: 0.9375rem auto 0;
 }
 @media (min-width: 768px) {
   .lower-layer .lower-layer__wrap .lower-layer__img {
-    background-image: url("/price/images/cover/price_cover_pc.png");
+    background-image: url("/assets/images/price/cover/price_cover_pc.png");
     width: min(75rem, 85.7142857143vw);
     height: min(34.375rem, 39.2857142857vw);
   }
@@ -1001,7 +1016,7 @@ p {
   margin: 0 auto;
   height: 14.8125rem;
   border-radius: 24px;
-  background-image: url("/price/images/garary/price_garary_01.png");
+  background-image: url("/assets/images/price/garary/price_garary_01.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1016,10 +1031,10 @@ p {
 }
 
 .price-garary__carousel .carousel__wrap--2 .carousel--inner {
-  background-image: url("/price/images/garary/price_garary_02.png");
+  background-image: url("/assets/images/price/garary/price_garary_02.png");
 }
 .price-garary__carousel .carousel__wrap--3 .carousel--inner {
-  background-image: url("/price/images/garary/price_garary_03.png");
+  background-image: url("/assets/images/price/garary/price_garary_03.png");
 }
 
 .price-garary__carousel .slick-dots {
@@ -1080,10 +1095,11 @@ p {
 }
 
 .price-features__box .price-features__container .price-features__img {
-  background-image: url("/price/images/price_features/price_features_sp_01.png");
+  background-image: url("/assets/images/price/price_features/price_features_sp_01.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  border-radius: 16px;
   width: 91.7948717949vw;
   max-width: 358px;
   height: 51.2820512821vw;
@@ -1099,24 +1115,24 @@ p {
 }
 @media (min-width: 768px) {
   .price-features__box .price-features__container .price-features__img {
-    background-image: url("/price/images/price_features/price_features_pc_01.png");
+    background-image: url("/assets/images/price/price_features/price_features_pc_01.png");
   }
 }
 
 .price-features__box .price-features__wrap--2 .price-features__container .price-features__img {
-  background-image: url("/price/images/price_features/price_features_sp_02.png");
+  background-image: url("/assets/images/price/price_features/price_features_sp_02.png");
 }
 @media (min-width: 768px) {
   .price-features__box .price-features__wrap--2 .price-features__container .price-features__img {
-    background-image: url("/price/images/price_features/price_features_pc_02.png");
+    background-image: url("/assets/images/price/price_features/price_features_pc_02.png");
   }
 }
 .price-features__box .price-features__wrap--3 .price-features__container .price-features__img {
-  background-image: url("/price/images/price_features/price_features_sp_03.png");
+  background-image: url("/assets/images/price/price_features/price_features_sp_03.png");
 }
 @media (min-width: 768px) {
   .price-features__box .price-features__wrap--3 .price-features__container .price-features__img {
-    background-image: url("/price/images/price_features/price_features_pc_03.png");
+    background-image: url("/assets/images/price/price_features/price_features_pc_03.png");
   }
 }
 
@@ -1254,7 +1270,7 @@ p {
 }
 
 .price-contact__wrap {
-  background-image: url("/price/images/price_contact/price_contact_sp.png");
+  background-image: url("/assets/images/price/price_contact/price_contact_sp.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1267,7 +1283,7 @@ p {
 }
 @media (min-width: 768px) {
   .price-contact__wrap {
-    background-image: url("/price/images/price_contact/price_contact_pc.png");
+    background-image: url("/assets/images/price/price_contact/price_contact_pc.png");
     width: 100vw;
     height: 32.1428571429vw;
   }
@@ -1296,11 +1312,11 @@ p {
 }
 
 .faq-cover .lower-layer .lower-layer__wrap .lower-layer__img {
-  background-image: url("/faq/images/faq_cover_sp.png");
+  background-image: url("/assets/images/faq/faq_cover_sp.png");
 }
 @media (min-width: 768px) {
   .faq-cover .lower-layer .lower-layer__wrap .lower-layer__img {
-    background-image: url("/faq/images/faq_cover_pc.png");
+    background-image: url("/assets/images/faq/faq_cover_pc.png");
   }
 }
 
@@ -1386,6 +1402,7 @@ p {
   .header__text {
     font-size: 1.125rem;
     margin-top: 0.5rem;
+    margin-left: 2.625rem;
   }
 }
 

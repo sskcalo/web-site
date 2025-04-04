@@ -10,12 +10,12 @@
 @import 'news';
 @import 'footer';
 
-@import "../../price/style/price-cover";
-@import '../../price/style/price-garary';
-@import '../../price/style/price-features';
-@import '../../price/style/price-value';
-@import '../../price/style/price-spec';
-@import '../../price/style/price-contact';
+@import "price-cover";
+@import 'price-garary';
+@import 'price-features';
+@import 'price-value';
+@import 'price-spec';
+@import 'price-contact';
 
-@import '../../faq/style/faq-cover';
-@import '../../faq/style/faq';
+@import 'faq-cover';
+@import 'faq';

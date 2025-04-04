@@ -10,7 +10,7 @@
 
 .about {
     .about__wrap {
-        background-image: url("/assets/images/about_sp.png");
+        background-image: url("/assets/images/top/about_sp.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
@@ -84,10 +84,11 @@
     .about__wrap {
         .about__img {
             @media (min-width: 768px) {
-                background-image: url("/assets/images/about_pc.png");
+                background-image: url("/assets/images/top/about_pc.png");
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: contain;
+                border-radius: 40px;
                 width: 40%;
                 height: rem(570);
                 margin-right: rem(31);

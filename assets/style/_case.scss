@@ -48,17 +48,18 @@
 .case__box {
     .case__container {
         .case__img {
-            background-image: url("/assets/images/case/case_sp_01.png");
+            background-image: url("/assets/images/top/case/case_sp_01.png");
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
+            border-radius: 24px;
             width: calc(100vw/390*358);
             max-width: 358px;
             height: calc(100vw/390*201);
             max-height: 201px;
 
             @media (min-width: 768px) {
-                background-image: url("/assets/images/case/case_pc_01.png");
+                background-image: url("/assets/images/top/case/case_pc_01.png");
                 width: calc(100vw/1400*369);
                 max-width: 369px;
                 height: calc(100vw/1400*226);
@@ -87,10 +88,10 @@
     .case__wrap--2 {
         .case__container {
             .case__img {
-                background-image: url("/assets/images/case/case_sp_02.png");
+                background-image: url("/assets/images/top/case/case_sp_02.png");
 
                 @media (min-width: 768px) {
-                    background-image: url("/assets/images/case/case_pc_02.png");
+                    background-image: url("/assets/images/top/case/case_pc_02.png");
                 }
             }
         }
@@ -99,10 +100,10 @@
     .case__wrap--3 {
         .case__container {
             .case__img {
-                background-image: url("/assets/images/case/case_sp_03.png");
+                background-image: url("/assets/images/top/case/case_sp_03.png");
 
                 @media (min-width: 768px) {
-                    background-image: url("/assets/images/case/case_pc_03.png");
+                    background-image: url("/assets/images/top/case/case_pc_03.png");
                 }
             }
         }
